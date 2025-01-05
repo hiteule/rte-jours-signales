@@ -1,7 +1,7 @@
 # RTE Jours Signalés for Home Assistant
 
-Component to expose (RTE Jours Signalés)[https://www.services-rte.com/fr/visualisez-les-donnees-publiees-par-rte/jours-signales-de-l-appel-d-offres-effacement.html].
-These days are used - among other things - by certain energy suppliers such as (Octopus France)[https://www.octopusenergy.fr] to reward energy savings made by their customers.
+Component to expose [RTE Jours Signalés](https://www.services-rte.com/fr/visualisez-les-donnees-publiees-par-rte/jours-signales-de-l-appel-d-offres-effacement.html).
+These days are used - among other things - by certain energy suppliers such as [Octopus France](https://www.octopusenergy.fr) to reward energy savings made by their customers.
 
 ![downloads](https://img.shields.io/badge/dynamic/json?color=41BDF5&logo=home-assistant&label=integration%20usage&suffix=%20installs&cacheSeconds=15600&url=https://analytics.home-assistant.io/custom_integrations.json&query=$.rte_jours_signales.total)
 
