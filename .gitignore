@@ -1,0 +1,8 @@
+# artifacts
+__pycache__
+
+# misc
+Dockerfile
+.coverage
+coverage.xml
+todo.txt

@@ -1,0 +1,13 @@
+{
+  "domain": "rte_jours_signales",
+  "name": "RTE Jours Signalés",
+  "codeowners": ["@hiteule"],
+  "config_flow": true,
+  "documentation": "https://github.com/hiteule/rte-jours-signales/blob/master/README.md",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/hiteule/rte-jours-signales/issues",
+  "requirements": [
+    "requests-oauthlib>=1.3.1"
+  ],
+  "version": "1.0.0"
+}
