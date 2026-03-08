@@ -2,7 +2,6 @@
 __pycache__
 
 # misc
-Dockerfile
 .coverage
 coverage.xml
 todo.txt

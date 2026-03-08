@@ -1,7 +1,8 @@
-homeassistant==2024.3.3
-colorlog>=6.8.2
-pytest>=7.4.4
-anyio>=4.0.0
-pytest-homeassistant-custom-component>=0.13.99
+homeassistant==2025.10.2
+colorlog==6.10.1
+pytest==8.4.2
+anyio==3.7.1
+pycares==4.9.0
+pytest-homeassistant-custom-component==0.13.287
 oauthlib>=3.2.2
 requests_oauthlib>=2.0.0

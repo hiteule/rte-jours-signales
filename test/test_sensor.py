@@ -2,6 +2,7 @@
 
 from unittest.mock import patch
 import datetime
+from homeassistant.config_entries import ConfigEntryState
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
 from custom_components.rte_jours_signales import async_setup_entry
@@ -31,8 +32,9 @@ async def test_sensors_unknown(
     config_entry.add_to_hass(hass)
 
     # setup the entry
-    assert await async_setup_entry(hass, config_entry)
+    await hass.config_entries.async_setup(config_entry.entry_id)
     await hass.async_block_till_done()
+    assert config_entry.state is ConfigEntryState.LOADED
 
     # current sensor should be created
     state_current = hass.states.get("sensor.rte_jours_signales_signal_current")
@@ -66,8 +68,9 @@ async def test_sensors(
     config_entry.add_to_hass(hass)
 
     # setup the entry
-    assert await async_setup_entry(hass, config_entry)
+    await hass.config_entries.async_setup(config_entry.entry_id)
     await hass.async_block_till_done()
+    assert config_entry.state is ConfigEntryState.LOADED
 
     # current sensor should be created
     state_current = hass.states.get("sensor.rte_jours_signales_signal_current")
