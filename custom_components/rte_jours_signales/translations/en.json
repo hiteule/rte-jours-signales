@@ -16,7 +16,7 @@
                     "client_id": "Client ID",
                     "client_secret": "Client Secret"
                 },
-                "description": "Please fill in your RTE API [Application credentials](https://data.rte-france.com/group/guest/apps)"
+                "description": "Please fill in your RTE API [Application credentials]({app_link})"
             }
         }
     },
