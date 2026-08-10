@@ -1,4 +1,4 @@
-FROM python:3.13-alpine
+FROM python:3.14-alpine
 WORKDIR /usr/local/app
 
 RUN apk add --update alpine-sdk
